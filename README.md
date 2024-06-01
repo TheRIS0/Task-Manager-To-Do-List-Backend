@@ -23,4 +23,32 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+## Environment Setup
+
+You need to create your own `.env` file based on the `.env.example` provided. This file contains all the environment variables required to run the application. I cannot put sensitive information like database passwords or API keys in public repositories.
+
+## Usage 
+Run the following command to start the development server:
+```bash
+php artisan serve
+```
+The application will be available at `http://localhost:8000`.
+
+## API Endpoints
+
+The following API endpoints are available:
+
+`GET /api/tasks` - Retrieve all tasks
+`POST /api/tasks` - Create a new task
+`GET /api/tasks/{id}` - Retrieve a specific task by ID
+`PUT /api/tasks/{id}` - Update a specific task by ID
+`DELETE /api/tasks/{id}` - Delete a specific task by ID
+
+## Database Migration
+
+To set up the database, run the following command to apply the migrations:
+
+```bash
+php artisan migrate
+```
 
