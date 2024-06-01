@@ -16,7 +16,7 @@ This is the backend for a Task Manager To-Do List application built using Larave
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/TheRIS0/Task-Manager-To-Do-List-Backend.git
+git clone https://github.com/YourUserName/Task-Manager-To-Do-List-Backend.git
 cd Task-Manager-To-Do-List-Backend
 composer install
 cp .env.example .env
