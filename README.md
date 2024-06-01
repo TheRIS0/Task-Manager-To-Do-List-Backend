@@ -1,6 +1,7 @@
 # Task Manager To-Do List - Backend
 
 This is the backend for a Task Manager To-Do List application built using Laravel. This backend API allows you to manage tasks with CRUD operations.
+You will also need frontend part for this project, you can find it in my another repository.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -51,4 +52,30 @@ To set up the database, run the following command to apply the migrations:
 ```bash
 php artisan migrate
 ```
+Migration File: xxx_create_tasks_table.php
 
+***Controllers:***
+
+**TaskController.php**
+This controller handles all the CRUD operations for the tasks.
+
+***Models:***
+
+**Task.php**
+The model representing the tasks in the database.
+
+***Providers:***
+
+**AppServiceProvider.php**
+This provider sets up the API routes.
+
+***Routes:***
+
+**api.php**
+Defines the API routes for the application.
+
+## Contributing
+Contributions are welcome! Please fork this repository and create a pull request to submit your changes.
+
+## License
+This project is not currently licensed. If you wish to use the code for commercial purposes, please contact me to discuss licensing options.
